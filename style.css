@@ -393,8 +393,8 @@ body{
     .chat-container-mobile{
         display: block;
         height: 100vh;
+        margin-bottom: 4rem;
         padding-top: 4rem;
-        overflow: scroll;
     }
     /* Chat Menu Mobile */
     .chat-menu-mobile{
@@ -424,10 +424,11 @@ body{
     .chat-profiles-mobile{
         width: 80%;
         margin-left: 10%;
-        margin-bottom: 1rem;
+        margin-bottom: 10rem;
         margin-right: 10%;
+        height: -webkit-fill-available;
         border: solid rgba(0,0,0,0.2) 1px;
-        
+        overflow: scroll;
     }
 
     .profile-item-mobile{
@@ -482,7 +483,7 @@ body{
     /* Chat Window */
     .chat-box-container-mobile{
         display: none;
-        height: 100vh;
+        height: 100%;
         width: 80%;
         margin: 0 auto;
         margin-top: 2rem;
